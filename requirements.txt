@@ -31,8 +31,6 @@ Jinja2==3.1.6
 jsonschema==4.24.0
 jsonschema-specifications==2025.4.1
 MarkupSafe==3.0.2
-# Editable install with no version control (movie_recommender==0.0.1)
--e c:\users\abhin\machine learning projects
 narwhals==1.42.1
 packaging==24.2
 pillow==11.2.1
