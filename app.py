@@ -241,5 +241,4 @@ def chat():
 # To run the app
 if __name__ == '__main__':
     # Use port 8080 to avoid conflicts with common services, and debug=True for 
-    port = int(os.environ.get("PORT", 10000))
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='127.0.0.1', port=5000, debug=True)
