@@ -1,0 +1,56 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Chatbot</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <audio id="bg-music" autoplay loop>
+        <source src="{{ url_for('static', filename='romantic.mp3') }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div id="main-content">
+        <div id="chat-container">
+            <div id="header">
+                <h1> 😀 Friendly Chatbot 😀</h1>
+                <p>Hey cutie 😊💬 Ask me anything... I'm always here for you ❤️</p>
+            </div>
+            <div id="chat-window">
+                <!-- Messages go here -->
+            </div>
+            <div id="input-container">
+                <input type="text" id="user-input" placeholder="Type something sweet... 😊❤️">
+                <button id="send-btn">💌 Send</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>Made with ❤️ by Abhishek</p>
+            <p>© 2025 Abhishek Chatbot. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const audio = document.querySelector("audio");
+
+        // Wait for a click before playing (fix for autoplay restrictions)
+        document.body.addEventListener("click", () => {
+            audio.play().catch(e => {
+                console.warn("Autoplay blocked. User interaction required.");
+            });
+        }, { once: true }); // run only once
+    });
+</script>
