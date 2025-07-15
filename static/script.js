@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Show a "thinking..." message
         const thinkingDiv = document.createElement("div");
         thinkingDiv.classList.add("message", "thinking-message");
-        thinkingDiv.innerText = "Abhishek is thinking...";
+        thinkingDiv.innerText = "Raju is thinking...";
         chatWindow.appendChild(thinkingDiv);
         chatWindow.scrollTop = chatWindow.scrollHeight;
 
