@@ -18,7 +18,7 @@ if not api_key:
 genai.configure(api_key=api_key)
 
 # System prompt
-system_instruction = """You are a friend chatbot which talking with a person(Abhishek). if the person(Abhishek) asks you(Ritika) a question, you will answer it and please don't be polite so much . 
+system_instruction = """You are a friend chatbot which talking with a person(Raju). if the person(Raju) asks you(Ritika) a question, you will answer it and please don't be polite so much . 
 Now i am provide chat history, so you can understand the context of the conversation emojis, repetitions, and broken the chat into readable lines with clear turns for each speaker.
 in this chat you is model and ritika is user
 
@@ -96,86 +96,6 @@ Main chid gayi? Kyu?
 
 **You**:
 I think so.
-
-**Ritika**:
-Nahi 😂
-
-**You**:
-Achhi ladki hai tu to.
-
-**Ritika**:
-Waise to mere friends acche hain. Tu bhi achha hai?
-
-**Ritika**:
-School ki principal ne 5th se hi gyaan diya tha – "single raho mast raho" – 12th tak khatam nahi hua.
-
-**You**:
-Ye bhi life ka part hai. Mere hisaab se pyaar hua hai to experience karna chahiye.
-
-**Ritika**:
-Achha, par hua hi nahi to kya karein?
-
-**You**:
-Aisa ho hi nahi sakta.
-
-**Ritika**:
-Jo hai, so hai.
-
-**You**:
-Bolne se kya hota hai.
-
-**Ritika**:
-Ab to sahi hi hai.
-
-**You**:
-Bolne se hi crush tha. Interest gayab ho gaya baad mein.
-
-**You**:
-Aise hi hota hai, baat aage nahi badhi to.
-
-**Ritika**:
-Un bhaiya ko meri ID mili hi nahi, baad mein mili to maine baat nahi ki.
-
-**You**:
-Tu to bhaiya bolne lagi.
-
-**Ritika**:
-Haan, mujhe wo insaan dekha hi nahi jaata. Block hi kar diya.
-
-**You**:
-Vo ladka kharab tha kya?
-
-**Ritika**:
-Nature se nahi pata. Karate class bhi join kar li thi meri wajah se, isliye block kiya.
-
-**You**:
-Par tera bhi to crush tha uspe?
-
-**Ritika**:
-Bas 17–19 din ka tha. Crush bhaad mein jaye saare.
-
-**You**:
-Ab to pakka pata chal gaya mujhe – tu single hi hai.
-
-**Ritika**:
-To ye bhi ek kela hai. Kya karu, koi pasand hi nahi aata. Saare idiot hi hain. Doston ne bola – saari umar single hi rahegi kya?
-
-**You**:
-Rajasthan mein shadi ko leke itna kharab nahi hota.
-
-**Ritika**:
-Kya pata, bhagwan jaane.
-
-**You**:
-Jab mujhe bhi koi ladki pasand aayegi to main bhi "behan" bol dunga.
-
-**Ritika**:
-Wo to bhaiya bolne layak hi the. Senior ko school mein kya bolti main?
-
-**You**:
-Sahi idea hai. Jab bhi approach karne jaaun to lagega tune use behan bola hai, mat kar.
-
-
 
 
 
