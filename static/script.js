@@ -1,14 +1,14 @@
 // static/script.js
- document.addEventListener("DOMContentLoaded", function () {
-        const audio = document.querySelector("audio");
+ // document.addEventListener("DOMContentLoaded", function () {
+ //        const audio = document.querySelector("audio");
 
-        // Wait for a click before playing (fix for autoplay restrictions)
-        document.body.addEventListener("click", () => {
-            audio.play().catch(e => {
-                console.warn("Autoplay blocked. User interaction required.");
-            });
-        }, { once: true }); // run only once
-    });
+ //        // Wait for a click before playing (fix for autoplay restrictions)
+ //        document.body.addEventListener("click", () => {
+ //            audio.play().catch(e => {
+ //                console.warn("Autoplay blocked. User interaction required.");
+ //            });
+ //        }, { once: true }); // run only once
+ //    });
 document.addEventListener("DOMContentLoaded", () => {
     const chatWindow = document.getElementById("chat-window");
     const userInput = document.getElementById("user-input");
